@@ -1,0 +1,85 @@
+
+
+.opciones {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    
+}
+
+
+li {
+    padding: 50px;
+}
+
+.img {
+        max-height: var(--ntp-logo-height);
+        max-width: 100%;
+       justify-items: center;
+      
+     
+    }
+    section {
+        display: flexbox;
+      }
+
+      .logo {
+   
+        background-color: white;
+        text-align: center;
+      }
+      .busqueda {
+   margin-top: 200;
+        background-color: white;
+        text-align: center;
+      }
+
+
+.articulo {
+    height: 250px;
+    width: 150px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.link-box {
+    background-color: rgb(88, 142, 250);
+    text-align: center;
+    border-color: rgb(17, 16, 16);
+    border-radius: 10px;
+
+    padding: 6px 0;
+    
+ margin-bottom: 10px;
+    box-shadow: 10px 10px 21px -8px rgba(14, 3, 3, 0.62);
+    -webkit-box-shadow: 10px 10px 21px -8px rgba(10, 10, 10, 0.62);
+    -moz-box-shadow: 10px 10px 21px -8px rgba(0, 0, 0, 0.62);
+  }
+
+button {
+    border-radius: 20px;
+    height: 30px;
+    width: 75px;
+
+}
+
+button:hover {
+    background-color: rgb(81, 173, 173);
+    transform: scale(.80);
+    transition: 0.3s;
+}
+
+.pantalla {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+
+
+}

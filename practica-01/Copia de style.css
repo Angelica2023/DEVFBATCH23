@@ -1,0 +1,60 @@
+body {
+    background: #c31432; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #240b36,
+      #c31432
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #240b36,
+      #c31432
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  main {
+    /* background-color: skyblue; */
+    width: 450px;
+    max-width: 90%;
+    margin: 50px auto;
+  }
+  
+  .profile {
+    display: inline-block;
+    margin-left: calc(50% - 75px);
+    text-align: center;
+  }
+  .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .profile p {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+.social-box a{
+
+text-align: center;
+}
+.social-box
